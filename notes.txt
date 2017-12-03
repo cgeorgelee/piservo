@@ -1,0 +1,8 @@
+# NOTES FOR RASPBERRY PI
+
+# retrieve the current model number
+cat /proc/device-tree/model
+
+# set the keyboard type
+vi /etc/default/keyboard
+# and set the type to "us"
